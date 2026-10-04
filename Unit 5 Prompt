@@ -1,0 +1,21 @@
+Janae Mireles 
+Professor Tom Allenbaugh
+CSCI-1511
+October 4th,2026
+
+Do an internet search and describe the different file types for images used in games and 
+why a specific type is used over another.  (Hint: bitmap is not the most preferred file format)
+
+    Working with different image file types used in video games for source art, UI elements, and 
+runtime textures is highly dependent on compression needs, transparency, and hardware performance. 
+    For source and lossless formats .png, .tga, and .psd/ .tif are recommended. PNG is mostly used 
+for 2D sprites, UI icons, and user interfaces as it supports enhanced details. TGA is older but 
+preferred for raw 3D game textures and heightmaps as it handles uncompressed pixel data. PSD/ TIFF 
+are used by artists in design software before exporting into game-ready compressed formats.
+    For runtime and compressed formats .webp, .dds, and .jpeg are recommended. WebP is more modern and 
+supports lossless compression with transparency; beneficial for smaller file sizes than PNG for web 
+and small games. DDS/ DXTC files store GPUU-ready compressed textures that stay compressed in video 
+memory for faster rendering. JPEG is a compressed format used for skyboxes or non-transparent 
+background photos where file size matters more than fine pixel precision, avoided for sprites.
+    For vector and special formats SVG is recommended as it uses math equations rather than pixels, 
+making them ideal for resolution-independent user interference layouts.
